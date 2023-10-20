@@ -1,0 +1,33 @@
+.contenedor{
+    display: flex;
+    padding-top: 20px;
+    background: linear-gradient(0deg,rgb(255, 224, 229), rgb(255, 231, 231));
+    justify-content: space-between;
+    align-items: center;
+}
+.titulo {
+    display: flex;
+    padding-top: 60px;
+    font-size: 24px;
+    color: black;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(12deg,rgb(255, 224, 229), rgb(255, 231, 231));
+}
+
+.textoConBorde {
+    border-bottom: 1px solid rgb(236, 133, 214); 
+    padding-bottom: 5px; 
+}
+  
+
+.contenedor img {
+    max-width: 100px;
+    height: auto;
+}
+.item {
+    text-align: center;
+    margin: 20px;
+    color: black;
+
+}

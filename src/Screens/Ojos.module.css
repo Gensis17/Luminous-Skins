@@ -1,0 +1,33 @@
+.contenedor {
+    display: flex;
+    background: linear-gradient(10deg,rgb(255, 224, 229), rgb(255, 231, 231));
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.textoConBorde {
+    border-bottom: 1px solid rgb(236, 133, 214); 
+    padding-bottom: 5px; 
+}  
+
+.contenedor img {
+    max-width: 100px; 
+    height: auto; 
+}
+
+.item {
+    text-align: center;
+    margin: 20px;  
+    color: black; 
+    
+}
+
+.titulo {
+    padding-top: 50px;
+    font-size: 24px;
+    background: linear-gradient(0deg,rgb(255, 224, 229), rgb(255, 231, 231));
+    color: black;
+    flex-direction: column;
+    text-align: center;
+}

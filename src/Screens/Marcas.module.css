@@ -1,0 +1,49 @@
+.Marcas {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg,rgb(255, 224, 229), rgb(255, 231, 231));
+    padding:60px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textoConBorde {
+    border-bottom: 1px solid rgb(236, 133, 214); 
+    padding-bottom: 5px; 
+  }
+  
+
+.Marcas img {
+    max-width: 100px;
+    height: auto;
+}
+
+.tittlecontainer{
+    padding-top: 100px;
+}
+
+.Marcas p {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+}
+.item {
+    text-align: center;
+    margin: 20px;  
+    color: black; 
+
+}
+.callToAction{
+    background-color: rgb(252, 174, 235);
+    padding: 10px;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+.callToAction:hover {
+    padding: 15px;
+    cursor: pointer;
+}
+
+.ctaContainer{
+    padding-top: 40px;
+}
